@@ -26,7 +26,7 @@ encoder_dict = pickle.load(open('dt_predections.pkl', 'rb'))
 
 
 def main(): 
-    raw = pd.read_csv("/workspaces/codespaces-jupyter/data/train.csv")
+    raw = pd.read_csv("train.csv")
     st.title("Twitter sentiment analysis")
     html_temp = """
     <div style="background:#025246 ;padding:10px">
